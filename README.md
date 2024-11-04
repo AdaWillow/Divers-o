@@ -9,3 +9,5 @@ Código para praticar e se divertir
 3. Este código utiliza uma fila de prioridade (heap) para explorar os caminhos com menor custo primeiro, garantindo que você encontrará o caminho de custo mínimo do canto superior esquerdo ao canto inferior direito. Se o custo total exceder a quantia disponível (amount), ele retornará -1.
 
 4. Este código utiliza uma busca em largura (BFS) para explorar os movimentos do cavalo e capturar o máximo número possível de oponentes dentro do número máximo de movimentos permitidos (K). O conjunto captured garante que o cavalo não capture o mesmo oponente mais de uma vez, e o queue é utilizado para rastrear a posição atual do cavalo e o número de movimentos realizados.
+
+5. Neste exemplo, Value é a coluna que você deseja normalizar, Category1 é a categoria hierárquica maior, e Category2 seria a categoria hierárquica menor. O código calcula a normalização do valor em relação ao mínimo e máximo da Category1, garantindo que o valor normalizado esteja entre 0 e 1.

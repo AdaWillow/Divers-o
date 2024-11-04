@@ -1,0 +1,9 @@
+NormalizedValue = 
+VAR MaxValue = CALCULATE(MAX('Table'[Value]), ALLEXCEPT('Table', 'Table'[Category1]))
+VAR MinValue = CALCULATE(MIN('Table'[Value]), ALLEXCEPT('Table', 'Table'[Category1]))
+RETURN 
+IF(
+    MaxValue - MinValue = 0,
+    0,
+    ('Table'[Value] - MinValue) / (MaxValue - MinValue)
+)
