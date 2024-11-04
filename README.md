@@ -1,1 +1,3 @@
-# Divers-o
+# Diversão
+
+Código para praticar e se divertir
